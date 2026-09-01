@@ -1,0 +1,94 @@
+.publications {
+  padding: 80px 20px 60px;
+  background-color: transparent;
+  min-height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.publications h2 {
+  font-size: 40px;
+  margin-bottom: 40px;
+  color: #333;
+  text-align: center;
+}
+
+.publications-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.publication-item {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+  transition: transform 0.5s ease, box-shadow 0.5s ease, opacity 0.8s ease; 
+  opacity: 0; 
+  transform: translateY(40px); 
+  text-align: left;
+}
+
+.publication-item.fade-in {
+  opacity: 1; 
+  transform: translateY(0); 
+}
+
+.publication-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.publication-item h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+  color: #2d303d;
+  line-height: 1.4;
+}
+
+.publication-item p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 6px;
+}
+
+.publication-status {
+  font-style: italic;
+  color: #e67e22;
+  margin-bottom: 15px !important;
+  font-weight: 500;
+}
+
+.publication-item .read-more-btn {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 8px 18px;
+  background-color: #5329c5;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.publication-item .read-more-btn:hover {
+  background-color: #250f5f;
+}
+
+@media (max-width: 768px) {
+  .publications {
+    padding: 40px 20px;
+  }
+
+  .publications h2 {
+    font-size: 32px;
+  }
+
+  .publication-item {
+    padding: 20px;
+  }
+}
