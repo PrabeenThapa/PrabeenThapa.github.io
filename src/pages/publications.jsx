@@ -10,14 +10,6 @@ const Publications = () => {
       year: 2026,
       link: "#",
       status: "Manuscript in preparation"
-    },
-    {
-      title: "Clinical AI in Multi-Hospital Medical Diagnosis & Non-Invasive Patient Screening",
-      authors: "Prabin Thapa, et al.",
-      journal: "Gandaki University International Conference",
-      year: 2026,
-      link: "#",
-      status: "Conference Presentation"
     }
   ];
 
