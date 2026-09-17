@@ -110,7 +110,7 @@ const Achievements = () => {
       <h2>Achievements & Activities</h2>
       <div className="achievements-list">
         {achievements.map((item, index) => (
-          <div 
+          <div
             key={index}
             data-index={index}
             className={`achievement-item ${visible[index] ? 'fade-in' : ''}`}
@@ -126,10 +126,10 @@ const Achievements = () => {
             </ul>
 
             {item.link && (
-              <a 
-                href={item.link} 
-                target="_blank" 
-                rel="noopener noreferrer" 
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="achievement-link"
               >
                 {item.linkText}
