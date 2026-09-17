@@ -11,9 +11,7 @@ const Achievements = () => {
       linkText: "View Completion Letter",
       points: [
         "Completed a 1-year research internship (March 2025 – March 2026) focusing on medical image analysis and artificial intelligence research at the Multimodal Medical Data Analysis for Precision Medicine (MAP-MED) Lab.",
-        "Contributed to the project 'Personalised Risk Reduction and Toxicity Control in Non-Small Cell Lung Cancer (NSCLC)', developing and evaluating ML and 3D deep-learning models on a multicentre cohort of 451 patients with nested cross-validation and hyperparameter optimisation.",
-        "Engineered 3D medical image segmentation pipelines (bone and tumour segmentation) using ITK-SNAP and 3D Slicer, and performed radiomic feature extraction with perturbation experiments to assess robustness.",
-        "Developed and maintained machine-learning repositories, studied and optimised 3D deep-learning architectures, and contributed to technical documentation, reports, and academic presentations."
+        "Contributed to the project 'Personalised Risk Reduction and Toxicity Control in Non-Small Cell Lung Cancer (NSCLC)', developing and evaluating ML and 3D deep-learning models on a multicentre cohort of 451 patients with nested cross-validation and hyperparameter optimisation."
       ]
     },
     {
